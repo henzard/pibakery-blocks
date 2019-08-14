@@ -1,6 +1,6 @@
 {
   "version": 3.6,
-  "compressedMD5": "6e9a5f6d6c1bd453b37510630626ad8a",
+  "compressedMD5": "9BA0846D29B82F62FB006A63A6ABDFDA",
   "downloadUrl": "https://github.com/henzard/pibakery-blocks/releases/download/v0.3.6/pibakery-blocks.zip",
   "loadOrder": [
     "vncenable",
