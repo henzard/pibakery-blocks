@@ -1,0 +1,32 @@
+{
+	"name": "vstsagent",
+	"text": "Setup VSTS Build Agent\\nToken: %1\\nUrl: %2\\nPool: %3",
+	"script": "vstsagent.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "token-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "url-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "pool-name",
+			"maxLength":0
+		}
+	],
+	"network": true,
+	"continue": true,
+	"type": "other",
+	"category":"other",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Setup VSTS Build Agents",
+	"longDescription":"Setup VSTS Build Agents."
+}

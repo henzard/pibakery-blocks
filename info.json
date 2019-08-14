@@ -27,6 +27,9 @@
     "runpython",
     "deletefile",
     "reboot",
-    "shutdown"
+    "shutdown",
+    "hamachi",
+    "vstsagent",
+    "vstsrelease"
   ]
 }

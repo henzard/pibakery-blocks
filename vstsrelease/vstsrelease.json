@@ -1,0 +1,37 @@
+{
+	"name": "vstsagent",
+	"text": "Setup VSTS Release Agent\\nToken: %1\\nUrl: %2\\nDeployment Group: %3\\nProject: %4",
+	"script": "vstsagent.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "token-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "url-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "deploy-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "project-name",
+			"maxLength":0
+		}
+	],
+	"network": true,
+	"continue": true,
+	"type": "other",
+	"category":"other",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Setup VSTS Deployment Agents",
+	"longDescription":"Setup VSTS Deployment Agents."
+}

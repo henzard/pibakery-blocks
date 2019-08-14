@@ -1,0 +1,27 @@
+{
+	"name": "hamachi",
+	"text": "Setup Hamachi\\nNick Name: %1\\nNetwork: %2",
+	"script": "hamachi.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "nick-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "network-name",
+			"maxLength":0
+		}
+	],
+	"network": true,
+	"continue": true,
+	"type": "other",
+	"category":"other",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Setup Hasmach and Join a Network",
+	"longDescription":"Setup Hasmach and Join a Network."
+}
