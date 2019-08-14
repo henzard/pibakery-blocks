@@ -1,5 +1,5 @@
 {
-  "version": 3.6,
+  "version": 3.7,
   "compressedMD5": "9BA0846D29B82F62FB006A63A6ABDFDA",
   "downloadUrl": "https://github.com/henzard/pibakery-blocks/releases/download/v0.3.6/pibakery-blocks.zip",
   "loadOrder": [
@@ -30,6 +30,7 @@
     "shutdown",
     "hamachi",
     "vstsagent",
-    "vstsrelease"
+    "vstsrelease",
+    "sethostnamemac"
   ]
 }
