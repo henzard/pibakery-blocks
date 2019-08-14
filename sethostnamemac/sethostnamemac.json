@@ -1,5 +1,5 @@
 {
-	"name": "sethostname",
+	"name": "sethostnamemac",
 	"text": "Set hostname to MAC Adress",
 	"script": "sethostnamemac.sh",
 	"args": [],

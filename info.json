@@ -17,6 +17,7 @@
     "bootbehaviour",
     "changepass",
     "sethostname",
+    "sethostnamemac",
     "newcronjob",
     "uartconsole",
     "setspi",
@@ -30,7 +31,6 @@
     "shutdown",
     "hamachi",
     "vstsagent",
-    "vstsrelease",
-    "sethostnamemac"
+    "vstsrelease"
   ]
 }
